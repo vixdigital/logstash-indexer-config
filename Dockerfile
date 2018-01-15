@@ -5,3 +5,4 @@ RUN mkdir -p /etc/logstash/
 
 COPY logstash.conf /etc/logstash/logstash.conf
 
+CMD ["-f", "/etc/logstash/logstash.conf"]
